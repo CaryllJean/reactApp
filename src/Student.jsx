@@ -32,28 +32,3 @@ function Student() {
 }
 
 export default Student;
-// export default function Student() {
-//   return (
-//     <div>
-//       <h1>Student Grades</h1>
-//       <ul>
-//         {Students.map((student, index) => (
-//           <li key={index}>
-//             Name: {student.name}, Department: {student.department}, Final Grade:{" "}
-//             {student.finalGrade}, Status: {student.status}
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
-// const Student = ({ name, price, emoji }) => {
-//   return (
-//     <li>
-//       {emoji} {name} - ${price}
-//     </li>
-//   );
-// };
-
-// export default Student;
